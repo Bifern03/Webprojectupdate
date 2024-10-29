@@ -193,11 +193,11 @@ $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="navbar">
         <div class="logo">E-Lend</div>
         <div class="menu">
-            <a href="manage_admins.php">Admin/Officer</a>
-            <a href="manage_members.php">Members</a>
-            <a href="manage_loan_status.php">Status</a>
-            <a href="../logout.php">Logout</a>
-        </div>
+                    <a href="manage_admins.php">Admin/Officer</a>
+                    <a href="manage_members.php">Members</a>
+                    <a href="manage_loan_status.php">Loan Status</a>
+                    <a href="../logout.php" class="logout-link" style="color: #ff4d4d; background-color: #333;">Logout</a>
+                </div>
     </div>
 
     <!-- ฟอร์มเพิ่ม Admin -->
